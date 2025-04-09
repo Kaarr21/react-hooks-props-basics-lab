@@ -7,8 +7,8 @@ import About from "./About";
 import user from "../data/user";
 console.log(user);
 
-function App() {
-  const user = {
+
+  const  user = {
     name:"Liza",
     city: "NewYork",
     bio: "I made this!",
@@ -17,7 +17,7 @@ function App() {
     linkedin: "https://www.linkedin.com/in/liza/"
     }
   };
-
+function App(){
   return (
     <div>
       <NavBar />
@@ -26,5 +26,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
